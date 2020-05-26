@@ -1,0 +1,168 @@
+h2{
+    border-bottom: 1px solid black;
+    font-size: 18pt;
+    margin-bottom: 50px;
+}
+
+#listOfAuthors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10% 50px 10%;
+    width: 80%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+
+    border: 1px solid black;
+}
+
+/* first cases of the authors grid */
+.firstCase{
+    font-size: 18pt;
+    font-weight: bold;
+    background-color: #d1d1d1;
+}
+
+/* others cases of the grid, generates with the sql request */
+.tabCase{
+    font-size: 15pt;
+}
+
+.newsBloc{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    width: 70%;
+    margin: 0 15% 40px 15%;
+}
+
+.titleBook{
+    text-align: center;
+    font-size: 16pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: 0 40% 0 40%;
+}
+
+.photoBook{
+    width: 260px;
+    height: 360px;
+    border: 1px solid black;
+    margin: 40px 40px 40px 0;
+}
+
+.bookCrit:first-child{
+    margin-top: 40px;
+}
+
+/* entire confidentiality bloc */
+#pcbloc{
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+.whoRus{
+    font-size: 15pt;
+    width: 95%;
+    margin: 20px 2.5% 20px 2.5%;
+}
+
+/* contact form to send a mail  */
+#bloc_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16pt;
+    width: 90%;
+    margin: 40px 5% 40px 5%;
+    text-align: center;
+}
+
+#bloc_form form{
+    width: 100%;
+}
+
+.inputForm{
+    width: 50%;
+    font-size: 18pt;
+}
+.titleForm{
+    width: 30%;
+}
+
+
+.caseForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
+}
+
+.caseForm:last-child{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+#main_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main_page h2{
+    font-size: 22pt;
+}
+
+#formLog{
+    margin: 60px 0 100px 0;
+}
+
+#formLog input{
+    font-size: 17pt;
+}
+
+#subscribeForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin : 50px 0 50px 0;
+}
+
+#subscribeForm input{
+    width: 50%;
+    font-size: 16pt;
+}
+
+#allComments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#allComments h3{
+    text-align: center;
+    font-size: 18pt;
+}
+
+#allComments span{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}

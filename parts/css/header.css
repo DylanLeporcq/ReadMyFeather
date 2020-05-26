@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+
+/* the login and subscribe bar */
+#login_bar{
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    height: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.2s;
+    opacity: 1;
+}
+
+/* the button hidding the login bar */
+#hideBtn{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* the button showing login bar */
+#showBtn{
+    position: fixed;
+    margin-left: 5px;
+    color: white;
+    margin-top: 5px;
+    display: none;
+    background: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+/* login and subscribe buttons */
+.logsub{
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* contain all the links to all other pages */
+#main_menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: rgb(13, 13, 13);
+}
+
+/* focus the links in the main menu */
+#main_menu a{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 16pt;
+    letter-spacing: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* main logo and search logo */
+#main, #search{
+    width: 14%;
+}
+
+/* others links */
+#authors, #news, #books{
+    width: 24%;
+}
+
+/* the img of the main logo */
+.fa-book{
+    font-size: 38pt;
+    transition-duration: 0.2s;
+}
+
+

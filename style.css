@@ -1,0 +1,79 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+}
+h1, h2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 18px 0 18px 0;
+    font-size: 30pt;
+    letter-spacing: 2px;
+    width: 40%;
+    margin: 50px 30% 0 30%;
+}
+
+h2{
+    padding-bottom: 10px;
+    width: 60%;
+    margin: 50px 20% 0 20%;
+}
+
+h3{
+    width: 70%;
+    text-align: justify;
+    margin: 15px 15% 0 15%;
+}
+
+/* index style */
+
+/* contain all the h3 frome the intro text of the main page */
+#presentation{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* contain the sql request of the top5 */
+#bestRates{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 100px 10% 0 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bestRates a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border : 1px solid black;
+    width: 18%;
+    height: 230px;
+}
+
+/* Same than bestRates, but contain too the title of the area */
+#bestOf{
+    margin : 40px 0 100px 0;
+}
+#bestOf span{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-size: 18pt;
+    margin: 0 10% 0 10%;
+}
+
+h3 a{
+    color: #601ca8;
+    font-weight: bold;
+}
